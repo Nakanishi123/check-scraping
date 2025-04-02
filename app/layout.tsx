@@ -12,7 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className="vsc-initialized">{children}</body>
     </html>
   );
 }

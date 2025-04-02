@@ -12,6 +12,8 @@ export default function Home() {
   return (
     <div className="App">
       <h1>WebDriver検出テスト</h1>
+      <p>現在の言語: {window.navigator.language}</p>
+      <p>UserAgent : {window.navigator.userAgent}</p>
     </div>
   );
 }
